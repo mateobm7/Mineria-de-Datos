@@ -13,16 +13,14 @@ Antes de iniciar el análisis, el repositorio contiene lo siguiente:
   - `analisis_visual.py` → Script de Python que se conecta a datos_mision.db, extrae los datos usando una consulta SQL, realice los cálculos matemáticos y genera una imagen (resultado.png).
 - `README.md` → Análisis de los resultados
 
-Para ejecutar el pipeline simplemente hacer lo siguiente (en bash):
-
-
-
+Para ejecutar el pipeline (en bash), simplemente siga los siguientes pasos en la terminal, de enter en cada linea:
+- `git clone https://github.com/mateobm7/Mineria-de-Datos`
+- `cd Mineria-de-Datos/`
+- `cd Proyecto1/`
 - `chmod +x pipeline.sh`
 - `sh pipeline.sh`
 
 Con lo anterior debería generarse la gráfica.
-
-(recomendación: Clone el repositorio en bash y ejecute el 
 
 ## 3. Análisis de resultados
 
