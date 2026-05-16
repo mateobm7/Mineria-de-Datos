@@ -58,6 +58,9 @@ Antes de iniciar el análisis, el repositorio contiene lo siguiente:
 
 Para ejecutar el pipeline simplemente hacer lo siguiente (bash):
 
+- `git clone https://github.com/mateobm7/Mineria-de-Datos`
+- `cd Mineria-de-Datos/`
+- `cd Proyecto2/`
 - `chmod +x 1_descarga_omega.sh`
 - `sh 1_descarga_omega.sh`
 
