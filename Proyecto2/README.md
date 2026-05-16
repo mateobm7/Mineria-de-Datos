@@ -63,7 +63,7 @@ Para ejecutar el pipeline simplemente hacer lo siguiente (bash):
 
 Con lo anterior deberían generarse las graficas, primero vienen 3 juntas y al cerrar la ventana aparecen las otras dos.
 
-## 1. Análisis de resultados
+## 3. Análisis de resultados
 
 <img width="1793" height="589" alt="image" src="https://github.com/user-attachments/assets/e9de0efa-9eab-4cfa-a44e-0e9c2fab2b05" />
 
