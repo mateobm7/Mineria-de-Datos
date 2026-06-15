@@ -1,11 +1,11 @@
-#Bases de datos para el proyecto
+# Bases de datos para el proyecto
 
 Estas bases fueron consultadas en la pagina oficial de SDSS: https://skyserver.linea.org.br/sciserver/SearchTools/sql
 
 Fueron 3 consultas diferentes ya que la página solo permite descargar bases de datos para un máximo de 500 mil datos, y contabamos con más de 700 mil cuásares, Los sql usados fueron:
 
 - primer sql:
-- 
+
   SELECT
     sp.objID,
     sp.ra,
@@ -36,7 +36,7 @@ WHERE sp.class = 'QSO'
   AND z < 1.5
 
 - Segundo sql:
-- 
+  
   SELECT
     sp.objID,
     sp.ra,
@@ -68,7 +68,7 @@ WHERE sp.class = 'QSO'
   AND z < 2.5
 
 - tercer sql
-- 
+  
   SELECT
     sp.objID,
     sp.ra,
