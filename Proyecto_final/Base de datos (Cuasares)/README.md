@@ -27,6 +27,7 @@ Fueron 3 consultas diferentes ya que la página solo permite descargar bases de 
 FROM SpecPhoto AS sp
 
 WHERE sp.class = 'QSO'
+
   AND sp.zWarning = 0
   AND sp.psfMag_u IS NOT NULL
   AND sp.psfMag_g IS NOT NULL
