@@ -4,7 +4,6 @@ Estas bases fueron consultadas en la pagina oficial de SDSS: https://skyserver.l
 
 Fueron 3 consultas diferentes ya que la página solo permite descargar bases de datos para un máximo de 500 mil datos, y contabamos con más de 700 mil cuásares, Los sql usados fueron:
 
-- primer sql:
 
   SELECT
     sp.objID,
@@ -27,7 +26,6 @@ Fueron 3 consultas diferentes ya que la página solo permite descargar bases de 
 FROM SpecPhoto AS sp
 
 WHERE sp.class = 'QSO'
-
   AND sp.zWarning = 0
   AND sp.psfMag_u IS NOT NULL
   AND sp.psfMag_g IS NOT NULL
